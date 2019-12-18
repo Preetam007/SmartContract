@@ -430,7 +430,7 @@ contract TokiaToken is StandardToken, Owned {
         roundNum = 0;
         if(_now > date01Mar2018) roundNum = 4;
         if(_now > date15Feb2018) roundNum = 3;
-        if(_now > date01Feb2018) roundNum = 2;
+        if(_now > date01Feb2018) roundNum = 3;
         if(_now > date01Jan2018) roundNum = 1;
         return roundNum;
     }
